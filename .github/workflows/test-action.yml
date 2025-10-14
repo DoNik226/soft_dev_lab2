@@ -56,7 +56,7 @@ jobs:
           ./tests/tests
       - name: Collect coverage into one XML report
         run: |
-          gcovr --sonarqube --exclude="*/googletest/*" --gcov-ignore-parse-errors > coverage.xml
+          gcovr --sonarqube --exclude='.*\\/external.*' --exclude='.*\\/tests.*' --gcov-ignore-parse-errors > coverage.xml
       - name: Run sonar-scanner
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
