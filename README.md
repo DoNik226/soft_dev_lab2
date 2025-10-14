@@ -1,5 +1,5 @@
 [![CI/CD GitHub Actions](https://github.com/DoNik226/soft_dev_lab2/actions/workflows/test-action.yml/badge.svg)](https://github.com/DoNik226/soft_dev_lab2/actions/workflows/test-action.yml)
-[comment]: [![Coverage Status](https://coveralls.io/repos/seekerk/gtest/badge.svg?branch=master)](https://coveralls.io/github/seekerk/gtest?branch=master)
+[![Coverage Status](https://coveralls.io/repos/DoNik226/soft_dev_lab2/badge.svg?branch=main)](https://coveralls.io/github/DoNik226/soft_dev_lab2?branch=main)
 [comment]: [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=seekerk_gtest&metric=alert_status)](https://sonarcloud.io/dashboard?id=seekerk_gtest)
 [comment]: [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=seekerk_ctest&metric=bugs)](https://sonarcloud.io/summary/new_code?id=seekerk_ctest)
 [comment]: [![Code smells](https://sonarcloud.io/api/project_badges/measure?project=seekerk_gtest&metric=code_smells)](https://sonarcloud.io/dashboard?id=seekerk_gtest)
