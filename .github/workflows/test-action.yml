@@ -56,7 +56,7 @@ jobs:
           ./tests/tests
       - name: Collect coverage into one XML report
         run: |
-          gcovr --lcov > coverage.xml
+          gcovr --sonarqube > coverage.xml
       - name: Run sonar-scanner
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
