@@ -2,10 +2,11 @@
 
 #include "myfunc.h"
 #include "equation.h"
+#include "complex.h"
 
 int main()
 {
-    double root1, root2;
+    _Complex root1, root2;
     int rootsCount;
     printf("Hello World!\n");
     equation(1, -1, 5, &root1, &root2);
