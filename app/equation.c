@@ -2,7 +2,7 @@
 #include <math.h>
 #include <complex.h>
 
-int equation(double a, double b, double c, double double *root1, double double *root2) {
+int equation(double a, double b, double c, double *root1, double *root2) {
     double d = b * b - 4 * a * c;
 
     if (d > 0) {
