@@ -2,7 +2,6 @@
 #include "fibonachi_test.h"
 #include "tst_stdout.h"
 #include "equation_test.h"
-#include "test_main.h"
 
 #include <gtest/gtest.h>
 
